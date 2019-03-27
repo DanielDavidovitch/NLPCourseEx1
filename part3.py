@@ -68,7 +68,7 @@ def main():
 
     # Create train data and test data for each language from the given data
     print "Creating training and test files"
-    #create_train_and_test_files()
+    create_train_and_test_files()
     # Test the model of each language against all languages
     print "Testing languages with weights: {0}".format(weights)
     test_languages(weights)
